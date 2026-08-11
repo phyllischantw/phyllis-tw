@@ -18,10 +18,63 @@
           "label": "下載檔案"
         }
       ]
+    },
+    {
+      "text": "讀完《別把錢花成麻煩》後，如果想把書中的方法繼續用在生活裡，這裡整理了一些實用的延伸資源：",
+      "items": [
+        {
+          "title": "購買前七問檢核卡",
+          "meta": "下單前用七個問題快速檢查，看看這筆消費是真的需要，還是只是當下很想買",
+          "file": "/assets/7q-card.jpg",
+          "label": "下載檢核卡",
+          "image": ""
+        },
+        {
+          "title": "七天失準消費紀錄表",
+          "meta": "連續記錄七天非必要消費，看見自己最容易花錯錢的情境與原因",
+          "file": "/assets/七天失準消費紀錄表_可填寫.pdf",
+          "label": "下載紀錄表",
+          "image": ""
+        },
+        {
+          "title": "一週行動清單",
+          "meta": "每天完成一個小行動，用七天調整容易讓錢流出去的消費習慣",
+          "file": "/assets/7d-list.jpg",
+          "label": "下載行動清單",
+          "image": ""
+        }
+      ],
+      "cover": "/assets/free-tools.jpg",
+      "coverAlt": "消費檢核工具示意插畫：檢核清單、七天記錄本、寫字板與錢包零錢",
+      "btnLight": true
+    },
+    {
+      "text": "",
+      "items": [
+        {
+          "title": "內政部｜室內裝修契約書範本",
+          "meta": "簽約前先看看官方契約範本，確認工程範圍、付款方式與追加工程該怎麼寫",
+          "file": "https://www.nlma.gov.tw/ch/legislation/law&regusw/1320",
+          "label": "前往外部網站",
+          "image": ""
+        },
+        {
+          "title": "內政部｜合法室內裝修業者查詢",
+          "meta": "簽約前確認室內裝修業者及專業技術人員是否完成合法登記，類別請選室內裝修業",
+          "file": "https://cloudbm.nlma.gov.tw/CPTL/cpt0602m.do",
+          "label": "前往外部網站",
+          "image": ""
+        },
+        {
+          "title": "司法院裁判書查詢系統",
+          "meta": "輸入人名或公司名稱，可查詢是否曾有裝修相關裁判紀錄",
+          "file": "https://judgment.judicial.gov.tw/FJUD/default.aspx",
+          "label": "前往外部網站",
+          "image": ""
+        }
+      ],
+      "cover": "/assets/free-tools-2.jpg",
+      "coverAlt": "裝修查證工具示意插畫：室內平面圖、色卡、捲尺與放大鏡檢視的檢核清單"
     }
-  ],
-  "footerBtn": {
-    "label": "參考更多 Phyllis 的線上課程",
-    "href": "/courses.html"
-  }
+  ]
 }
