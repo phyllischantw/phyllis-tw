@@ -18,3 +18,6 @@ admin/data/backups/
 
 # Windows 資源管理器產生的縮圖快取
 photothumb.db
+
+# 後台上傳暫存區（實際網站用的檔案已複製到 assets/）
+uploads/

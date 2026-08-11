@@ -7,15 +7,13 @@
   ],
   "certsNational": [
     "中華民國建築物室內設計乙級技術士，證照編號：125-004242",
-    "中華民國建築物室內裝修工程管理乙級技術士，證照編號：126-011784（106 年榜首）",
-    "建築物室內裝修專業技術人員登記證，登記證字號：內營室技字第 40EC021697 號（登記資格：專業設計技術人員、專業施工技術人員）",
-    "建築物設置無障礙設施設備勘檢人員培訓講習結業證書，編號：內營無障礙字第 12653 號"
+    "中華民國建築物室內裝修工程管理乙級技術士，證照編號：126-011784（106 年榜首）"
   ],
   "certsPro": [
     "美國專業整理師協會（NAPO®）居家整理專家資格（NAPO Residential Organizing Specialist Certificate）",
     "美國專業整理師協會（NAPO®）職場生產力專家資格（NAPO Workplace Productivity Specialist Certificate）"
   ],
-  "certImage": "/assets/napo-certificates.gif",
+  "certImage": "",
   "works": [
     {
       "title": "《當整理卡關時：獨居、同住都能實踐的零雜物生活》",
