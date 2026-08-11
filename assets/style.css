@@ -252,7 +252,7 @@ a:hover { text-decoration: underline; }
 .video-card h3 { font-size: 15.5px; font-weight: 700; line-height: 1.5; margin-top: 10px; }
 .video-card .meta { color: var(--ink-soft); font-size: 13px; margin-top: 3px; }
 /* 縮圖是節目方的素材，風格不一且多半很搶眼。整頁並排會很吵，
-   所以壓成近黑白再罩一層淡綠，讓 50＋ 張縮圖融進官網的綠色系。
+   所以壓成近黑白、降對比並提亮，讓 50＋ 張縮圖成為安靜的網格。
    滑過時「不」恢復原色——那會讓吵雜的縮圖又有機會喊出來——只提亮一點。 */
 .video-embed {
   position: relative; width: 100%; aspect-ratio: 16 / 9;
@@ -261,22 +261,12 @@ a:hover { text-decoration: underline; }
 }
 .video-embed a.thumb { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .video-embed img {
-  filter: grayscale(0.92) contrast(0.62) brightness(1.3);
+  filter: grayscale(0.82) contrast(0.62) brightness(1.3);
   transition: filter .25s ease;
 }
 .video-embed:hover img, .video-embed:focus-within img {
-  filter: grayscale(0.72) contrast(0.76) brightness(1.3);
+  filter: grayscale(0.62) contrast(0.76) brightness(1.3);
 }
-/* 綠色罩：用 color 混色只換色相、不動明暗，
-   才能一邊加重綠調一邊維持淺灰階（multiply 會把畫面壓暗）。
-   混色用的綠比 --accent-deep 飽和，否則疊上去幾乎看不出來。 */
-.video-embed a.thumb::after {
-  content: ""; position: absolute; inset: 0; pointer-events: none;
-  background: #6d8a5b; opacity: 0.28; mix-blend-mode: color;
-  transition: opacity .25s ease;
-}
-.video-embed:hover a.thumb::after, .video-embed:focus-within a.thumb::after { opacity: 0.15; }
-.play-btn, .watch-hint { z-index: 1; }
 /* 從 /video/<slug> 舊網址導進來時，標示出目標那一則 */
 .video-card { position: relative; }
 .video-card:target .video-embed { outline: 2px solid var(--accent-deep); outline-offset: 3px; filter: none; }
