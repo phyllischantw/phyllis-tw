@@ -1,0 +1,30 @@
+[
+  {
+    "title": "《當整理卡關時》",
+    "date": "2024/4",
+    "cover": "/assets/book-stuck-3d.png",
+    "coverAlt": "《當整理卡關時》書封",
+    "url": "https://www.books.com.tw/products/0010984974"
+  },
+  {
+    "title": "《零雜物裝修術》",
+    "date": "2019/12",
+    "cover": "/assets/book-reno-3d.png",
+    "coverAlt": "《零雜物裝修術》書封",
+    "url": "https://www.books.com.tw/products/0010840762"
+  },
+  {
+    "title": "《囤積解密》",
+    "date": "2015/04",
+    "cover": "/assets/book-hoarding-3d.png",
+    "coverAlt": "《囤積解密》書封",
+    "url": "https://www.books.com.tw/products/E050050685"
+  },
+  {
+    "title": "《零雜物》",
+    "date": "2012/05",
+    "cover": "/assets/book-zero-3d.png",
+    "coverAlt": "《零雜物》書封",
+    "url": "https://www.books.com.tw/products/E050050686"
+  }
+]

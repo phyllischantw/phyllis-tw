@@ -1,0 +1,20 @@
+backup/
+.claude/
+
+# 電子書工作室：原始素材與產生器都是本機工作用，
+# 網站實際使用的檔案已在 assets/ebook/ 和 downloads/ 裡
+ebook-draft/
+ebook-build/
+
+# 後台程式是純本機工具，不隨網站公開發布
+# （admin/data/*.json 是全站內容來源，仍會上傳）
+admin/server.mjs
+admin/ui.html
+admin/build.mjs
+啟動網站後台.bat
+
+# 後台每次存檔自動留的備份（本機保留即可）
+admin/data/backups/
+
+# Windows 資源管理器產生的縮圖快取
+photothumb.db

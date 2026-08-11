@@ -1,0 +1,46 @@
+[
+  {
+    "badge": "2026 年 · Declutter School",
+    "title": "零雜物居家整理實戰系統",
+    "meta": "14 個實戰任務，20 個單元內容，30 天陪跑期",
+    "desc": "結合觀念引導、實戰任務與陪跑機制的居家整理系統。跟著 Phyllis 規劃的 14 個任務，在 30 天陪跑期裡一步一步實作，找回「家」的秩序與美感。",
+    "btnLabel": "前往 Declutter School",
+    "url": "https://school.phyllis.tw",
+    "cover": "/assets/school-cover.png",
+    "coverAlt": "零雜物居家整理實戰系統課程主圖",
+    "anchor": "school"
+  },
+  {
+    "badge": "2025 年 · Hahow",
+    "title": "打造省錢理想風格宅",
+    "meta": "8 小時 40 個單元內容，無限次重複觀看",
+    "desc": "第一次裝修最怕什麼？怕不懂流程，怕預算不夠，怕住進去才發現「漂亮歸漂亮，但是不好用，又很難清」。這堂課，我把龐雜的裝修過程拆解成 40 個單元，帶你從：設計規劃 → 施工階段 → 驗收入住 → 軟裝技巧，把流程走順、把預算守住，並且避開最容易踩到的雷。",
+    "btnLabel": "前往 Hahow 課程頁",
+    "url": "https://hahow.in/courses/phyllis-reno",
+    "cover": "/assets/course-reno-cover.jpg",
+    "coverAlt": "裝修設計課課程封面",
+    "anchor": "reno"
+  },
+  {
+    "badge": "2024 年· 知識衛星",
+    "title": "無痛居家整理學",
+    "meta": "9 小時 45 個單元內容，無限次重複觀看",
+    "desc": "從有序整理到軟裝配置，一步一步打造出不易復亂又好看的「家」。課程五大特色：學習正確觀念，掌握有效又快速的整理方法；完整整理計畫，手把手帶你打理整潔清爽的家；從簡單到進階，拆解不同物品與空間的整理方法；基礎軟裝美學，教你輕鬆改造零雜物的居住空間。",
+    "btnLabel": "前往知識衛星課程頁",
+    "url": "https://hi.sat.cool/Phyllis的無痛居家整理學",
+    "cover": "/assets/course-organize-cover.jpg",
+    "coverAlt": "無痛居家整理學課程封面",
+    "anchor": "organize"
+  },
+  {
+    "badge": "2020 年 · PressPlay",
+    "title": "簡單又清爽！打造個人簡約生活空間",
+    "meta": "3 小時 17 個單元內容，無限次重複觀看",
+    "desc": "課程內容集結我個人近十年的簡約生活心得，還加入了改造案例的實拍分享。",
+    "btnLabel": "前往 PressPlay 課程頁",
+    "url": "https://www.pressplay.cc/link/6E84ACB2",
+    "cover": "/assets/course-simple-cover.jpg",
+    "coverAlt": "簡約生活心得課程封面",
+    "anchor": "simple"
+  }
+]
