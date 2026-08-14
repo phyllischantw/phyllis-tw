@@ -2,7 +2,7 @@
   "hero": {
     "name": "Phyllis",
     "subtitle": "室內設計師／整理教練／作家",
-    "lead": "從居家整理到設計裝修，讓 Phyllis 的書和課程協助您打造出「零雜物」的簡約空間吧！",
+    "lead": "從居家整理到設計裝修，Phyllis 透過著作、線上課程與實戰系統，分享多年累積的觀念與方法。",
     "points": [
       "具建築物室內設計、建築物室內裝修工程管理乙級技術士雙證照的室內設計師",
       "台灣取得美國專業整理師協會 NAPO®「居家整理」和「職場生產力」兩項專家資格的第一人",
@@ -11,24 +11,46 @@
     ],
     "avatar": "/assets/phyllis-avatar.png"
   },
+  "feature": {
+    "enabled": true,
+    "heading": "",
+    "items": [
+      {
+        "title": "零雜物居家整理實戰系統",
+        "text": "把居家整理拆成 14 個實戰任務，搭配 30 天陪跑與回饋機制，帶你照著順序動手，把家的秩序與美感整理回來。",
+        "image": "/assets/feature-school.jpg",
+        "imageAlt": "零雜物居家整理實戰系統課程主圖",
+        "btnLabel": "了解系統",
+        "href": "https://school.phyllis.tw"
+      },
+      {
+        "title": "免費電子書《別把錢花成麻煩》",
+        "text": "從每天怎麼花錢出發，帶你看懂消費如何變成雜物與麻煩，也重新檢查哪些支出真的值得。",
+        "image": "/assets/feature-ebook.jpg",
+        "imageAlt": "免費電子書《別把錢花成麻煩》",
+        "btnLabel": "免費閱讀",
+        "href": "/ebook.html"
+      }
+    ]
+  },
   "cards": [
     {
       "title": "線上課程",
-      "text": "裝修設計、居家整理與簡約生活課程，隨時隨地無限次觀看。",
+      "text": "收錄 Phyllis 關於居家整理、裝修設計與簡約生活的線上課程。",
       "btnLabel": "查看課程",
       "href": "/courses.html"
     },
     {
       "title": "歷年著作",
-      "text": "《零雜物》、《囤積解密》、《零雜物裝修術》、《當整理卡關時》。",
+      "text": "四本著作，集結 Phyllis 多年來對居住空間、物品與生活方式的觀察。",
       "btnLabel": "查看著作",
       "href": "/books.html"
     },
     {
-      "title": "整理陪跑",
-      "text": "零雜物居家整理實戰系統：跟著 14 個任務、30 天陪跑期一步一步實作。",
-      "btnLabel": "報名陪跑",
-      "href": "https://school.phyllis.tw/enroll"
+      "title": "節目影音",
+      "text": "收錄 Phyllis 歷年受訪與節目影音，依主題和時序分類整理。",
+      "btnLabel": "觀看影音",
+      "href": "/video.html"
     }
   ]
 }
