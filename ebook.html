@@ -33,6 +33,8 @@
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
 }
 .book .book-hero p { text-align: center; }
+/* 閱讀時間：有人可能直接拿到這頁的連結，沒經過免費資源頁，所以這裡也要標示 */
+.book-meta { color: var(--b-soft); font-size: 15px; margin-top: -10px; }
 .book-hero .btn-row { justify-content: center; margin-top: 24px; }
 .book-hero .btn-pdf { background: var(--b-green-deep); color: #fff; }
 .book-hero .btn-pdf:hover { background: var(--b-green); }
@@ -135,6 +137,7 @@
   <div class="book-hero">
     <img class="cover" src="/assets/ebook/cover.png" alt="《別把錢花成麻煩》封面">
     <h1 class="sr-only">別把錢花成麻煩：少買錯一點，把錢、時間和注意力拿回來（Phyllis 著）</h1>
+    <p class="book-meta">約 1.8 萬字，閱讀時間約 1 小時</p>
     <div class="btn-row">
       <a class="btn btn-pdf" href="/downloads/別把錢花成麻煩.pdf" download>下載 PDF 收藏版</a>
       <a class="btn btn-secondary" href="#ch0">開始閱讀</a>
