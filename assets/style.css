@@ -161,9 +161,18 @@ a:hover { text-decoration: underline; }
 /* 課程主圖資訊量大，間距比一般卡片再拉開，避免整頁看起來擁擠 */
 .course-card + .course-card { margin-top: 40px; }
 .course-card[id] { scroll-margin-top: 88px; }
+/* 從外部連結跳進來時（例如電子書的「查看 Phyllis 的線上課程」→ courses.html#organize），
+   頁面上有三門課，要讓讀者知道指的是哪一張。但永久留著硬邊框太搶眼，
+   所以只在剛跳進來時亮一下就淡掉。 */
 .course-card:target {
-  outline: 2px solid var(--accent-deep);
-  outline-offset: 3px;
+  animation: card-target-flash 2.6s ease-out 1 both;
+}
+@keyframes card-target-flash {
+  0%, 50% { box-shadow: 0 0 0 2px var(--accent-deep); }
+  100%    { box-shadow: 0 0 0 2px transparent; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .course-card:target { animation: none; }
 }
 .course-card {
   display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 0;
@@ -236,6 +245,8 @@ a:hover { text-decoration: underline; }
 /* 免費資源的說明段落 */
 .free-intro { max-width: 100%; margin-bottom: 12px; }
 .free-intro:last-of-type { margin-bottom: 0; }
+/* 頁首是 sticky，跳錨點時要留出它的高度，否則標題會被蓋住 */
+.free-intro[id] { scroll-margin-top: 88px; }
 
 /* 主打資源卡：左側一張大書封，右側多個選項 */
 .feat-card {
