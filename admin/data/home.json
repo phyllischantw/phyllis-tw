@@ -2,7 +2,7 @@
   "hero": {
     "name": "Phyllis",
     "subtitle": "室內設計師／整理教練／作家",
-    "lead": "從居家整理到設計裝修，Phyllis 透過著作、線上課程與實戰系統，分享多年累積的觀念與方法。",
+    "lead": "從居家整理到設計裝修，Phyllis 透過著作與線上課程，分享多年累積的觀念與方法。",
     "points": [
       "具建築物室內設計、建築物室內裝修工程管理乙級技術士雙證照的室內設計師",
       "台灣取得美國專業整理師協會 NAPO®「居家整理」和「職場生產力」兩項專家資格的第一人",
@@ -16,12 +16,12 @@
     "heading": "",
     "items": [
       {
-        "title": "零雜物居家整理實戰系統",
-        "text": "把居家整理拆成 14 個實戰任務，搭配 30 天陪跑與回饋機制，帶你照著順序動手，把家的秩序與美感整理回來。",
-        "image": "/assets/feature-school.jpg",
-        "imageAlt": "零雜物居家整理實戰系統課程主圖",
-        "btnLabel": "了解系統",
-        "href": "https://school.phyllis.tw"
+        "title": "無痛居家整理學",
+        "text": "從有序整理到軟裝配置，一步一步打造出不易復亂又好看的家。9 小時、45 個單元，無限次重複觀看。",
+        "image": "/assets/feature-organize.jpg",
+        "imageAlt": "無痛居家整理學課程主圖",
+        "btnLabel": "了解課程",
+        "href": "https://sat.cool/course/77"
       },
       {
         "title": "免費電子書《別把錢花成麻煩》",

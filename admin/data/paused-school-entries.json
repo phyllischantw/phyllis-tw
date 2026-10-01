@@ -1,0 +1,27 @@
+{
+  "_note": "零雜物居家整理實戰系統於 2026-10-01 暫停銷售（30 天陪跑期結束、14 個任務無人完成，決定改版後再上線）。以下是移除前的原始設定，改版完成後把這些值填回對應位置即可恢復。school.phyllis.tw 仍保持上線，既有的 6 位購買者可繼續登入。PDF 電子書未改動，其中的 enroll 連結維持原狀。",
+  "_pausedOn": "2026-10-01",
+  "navCta_in_site_json": {
+    "label": "零雜物居家整理實戰系統",
+    "href": "https://school.phyllis.tw"
+  },
+  "homeFeatureItem_in_home_json": {
+    "title": "零雜物居家整理實戰系統",
+    "text": "把居家整理拆成 14 個實戰任務，搭配 30 天陪跑與回饋機制，帶你照著順序動手，把家的秩序與美感整理回來。",
+    "image": "/assets/feature-school.jpg",
+    "imageAlt": "零雜物居家整理實戰系統課程主圖",
+    "btnLabel": "了解系統",
+    "href": "https://school.phyllis.tw"
+  },
+  "courseCard_in_courses_json": {
+    "badge": "2026 年 · Declutter School",
+    "title": "零雜物居家整理實戰系統",
+    "meta": "14 個實戰任務，20 個單元內容，30 天陪跑期",
+    "desc": "結合觀念引導、實戰任務與陪跑機制的居家整理系統。跟著 Phyllis 規劃的 14 個任務，在 30 天陪跑期裡一步一步實作，找回「家」的秩序與美感。",
+    "btnLabel": "前往 Declutter School",
+    "url": "https://school.phyllis.tw",
+    "cover": "/assets/school-cover.png",
+    "coverAlt": "零雜物居家整理實戰系統課程主圖",
+    "anchor": "school"
+  }
+}
